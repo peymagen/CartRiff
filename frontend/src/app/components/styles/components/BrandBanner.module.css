@@ -1,0 +1,66 @@
+/* Styles for the banner container */
+.banner {
+    /* Position the container relatively within its parent */
+    position: relative;
+    /* Set the container to occupy 100% of its parent's width */
+    width: 100%;
+    /* Set the height of the banner */
+    height: 500px; /* Adjust as needed */
+    /* Set the background image for the banner */
+    background-image: url('../../../public/images/BrandBanner.png');
+    /* Ensure the background image covers the entire container */
+    background-size: cover;
+    /* Position the background image in the center of the container */
+    background-position: center;
+    /* Display flex to align items within the container */
+    display: flex;
+    /* Align items along the main axis (vertically) */
+    justify-content: center;
+    /* Align items along the cross axis (horizontally) */
+    align-items: center;
+    /* Text alignment within the container */
+    text-align: center;
+  }
+  
+  /* Styles for the text within the banner */
+  .bannerText {
+    /* Set text color to white */
+    color: #fff;
+    /* Set font size for the text */
+    font-size: 2.5rem; /* Adjust size as needed */
+  }
+  
+  /* Styles for the discount text */
+  .discountText {
+    /* Set text color to white */
+    color: #fff;
+    /* Set font size for the text */
+    font-size: 2rem; /* Adjust size as needed */
+    /* Margin from the top to separate from the heading */
+    margin-top: 10px;
+  }
+  
+  /* Styles for the Explore button */
+  .exploreButton {
+    /* Margin from the top to separate from the discount text */
+    margin-top: 20px; /* Adjust spacing as needed */
+    /* Padding for the button */
+    padding: 10px 20px;
+    /* Background color of the button */
+    background-color: #ff6347; /* Button color */
+    /* Text color of the button */
+    color: #fff;
+    /* Remove underline from the button text */
+    text-decoration: none;
+    /* Add rounded corners to the button */
+    border-radius: 5px;
+    /* Smooth transition for background color change */
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for the Explore button */
+  .exploreButton:hover {
+    /* Change background color on hover */
+    background-color: #e55337;
+  }
+  
