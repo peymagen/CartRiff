@@ -1,0 +1,20 @@
+
+[
+    {
+      "question": "hello",
+      "answer": "Hi there! How can I help you today?"
+    },
+    {
+      "question": "how are you",
+      "answer": "I'm just a bot, but I'm doing great! How about you?"
+    },
+    {
+      "question": "what is your name",
+      "answer": "I am a chatbot created for demo purposes."
+    },
+    {
+      "question": "bye",
+      "answer": "Goodbye! Have a great day!"
+    }
+  ]
+  
