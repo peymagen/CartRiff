@@ -1,0 +1,141 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navLinks a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navLinks a:hover {
+    color: #0070f3;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.actionButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.profileButtonContainer {
+    position: relative;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    z-index: 1000;
+    width: auto;
+}
+
+.dropdownMenu {
+    display: block;
+}
+
+.dropdownMenu button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1rem; /* Adjust if needed for better alignment */
+}
+
+.dropdownMenu button svg {
+    font-size: 1.5rem; /* Increase icon size */
+}
+
+.dropdownMenu button:hover {
+    background: #f5f5f5;
+}
+
+.inviteFriends {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    margin-top: -1px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navLinks {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .search {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .search input[type="text"] {
+        flex-grow: 1;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

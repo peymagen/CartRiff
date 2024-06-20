@@ -1,0 +1,73 @@
+/* NewsletterForm.module.css */
+
+/* Styling for the main newsletter container */
+.newsletter {
+    display: flex; /* Centers children vertically */
+    flex-direction: column; /* Aligns children in a column */
+    align-items: center; /* Centers children horizontally */
+    padding: 20px; /* Padding inside the container */
+    background-color: #f9f9f9; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Centering the container */
+  }
+  
+  /* Styling for the headline */
+  .headline {
+    font-size: 24px; /* Font size */
+    margin-bottom: 20px; /* Space below the headline */
+    color: #333; /* Text color */
+  }
+  
+  /* Styling for the form element */
+  .form {
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center the form horizontally */
+  }
+  
+  /* Container for input and submit button */
+  .inputContainer {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+    border-bottom: 2px solid #000; /* Black line as bottom border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding-bottom: 10px; /* Padding at the bottom */
+  }
+  
+  /* Styling for the input field */
+  .input {
+    flex: 1; /* Takes up available space */
+    padding: 10px; /* Padding inside the input */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    background: none; /* No background */
+    box-shadow: none; /* No inner shadow */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Placeholder text styling */
+  .input::placeholder {
+    color: #0e0d0d; /* Placeholder text color */
+    font-style: italic; /* Italic placeholder text */
+  }
+  
+  /* Styling for the submit button */
+  .submitButton {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #f8f2f2; /* Button color */
+    color: #111111; /* Text color */
+    border-color: black; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    margin-left: 10px; /* Space between input and button */
+  }
+  
+  /* Hover effect for the submit button */
+  .submitButton:hover {
+    background-color: #f5f1f1; /* Darker background color on hover */
+  }
+  

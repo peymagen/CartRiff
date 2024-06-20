@@ -1,0 +1,87 @@
+/* styles/Products.module.css */
+
+/* Container for the entire products page */
+.productsContainer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title of the products page */
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for product cards */
+  .productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual product card */
+  .productCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Hover effect for product card */
+  .productCard:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image of the product */
+  .productImage {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  /* Product name styling */
+  .productName {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Product price styling */
+  .productPrice {
+    font-size: 1rem;
+    color: #0070f3;
+    margin: 10px 0;
+  }
+  
+  /* Product rating styling */
+  .productRating {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Add to cart button styling */
+  .addToCartButton {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /* Hover effect for add to cart button */
+  .addToCartButton:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .productsGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

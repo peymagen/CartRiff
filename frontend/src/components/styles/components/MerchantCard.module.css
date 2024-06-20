@@ -1,0 +1,23 @@
+/* Basic styling for the cart container */
+.card {
+    border: 2px solid; /* Border thickness */
+    /*background-color: linear-gradient(135deg, #6BAAFC 100%, #305FEC 100%); */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 10px; /* Outer margin */
+    width: 200px; /* Fixed width */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Styling for the cart title */
+  .title {
+    font-size: 1.2em; /* Slightly larger font size */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  /* Styling for the cart number */
+  .ordernumber {
+    font-size: 2em; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+  }
+  

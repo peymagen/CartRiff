@@ -1,0 +1,112 @@
+/* Container for the flash sales section */
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title for the flash sales section */
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for products */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  /* Individual product card styling */
+  .product {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(25% - 20px); /* 25% of the container width minus the gap */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  /* Product image styling */
+  .productImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Product name styling */
+  .productName {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Product price styling */
+  .price {
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+  /* Original price styling */
+  .originalPrice {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  /* Buy now button styling */
+  .buyNow {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect for buy now button */
+  .buyNow:hover {
+    background-color: #218838;
+  }
+  
+  /* View all button container styling */
+  .viewAllContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* View all button styling */
+  .viewAll {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for view all button */
+  .viewAll:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 1200px) {
+    .product {
+      width: calc(33.33% - 20px); /* 33.33% of the container width minus the gap */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .product {
+      width: calc(50% - 20px); /* 50% of the container width minus the gap */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product {
+      width: 100%; /* Full width for smaller screens */
+    }
+  }
+  

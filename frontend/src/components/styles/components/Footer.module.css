@@ -1,0 +1,112 @@
+/* Footer main styles */
+.footer {
+    background-color: #332D5B; /* Updated background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Container for footer columns */
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  /* Styles for each column in the footer */
+  .footer .column {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  /* Section title styles */
+  .footer .column h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for unordered lists in footer columns */
+  .footer .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Styles for list items in footer columns */
+  .footer .column ul li {
+    margin: 5px 0;
+  }
+  
+  /* Styles for links in footer columns */
+  .footer .column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Form styles in the footer */
+  .footer .column form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for input fields and buttons in the footer form */
+  .footer .column input,
+  .footer .column button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Styles for the subscribe button */
+  .footer .column button {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the subscribe button */
+  .footer .column button:hover {
+    background-color: #777;
+  }
+  
+  /* Address element styles */
+  .footer address {
+    font-style: normal;
+  }
+  
+  /* Styles for links in the address element */
+  .footer address a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for links in the address element */
+  .footer address a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Copyright section styles */
+  .footer .copyright {
+    margin-top: 20px;
+  }
+  
+  /* Container for social media icons */
+  .footer .socialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add equal gap between icons */
+    margin-top: 35px;
+  }
+  
+  /* Styles for social media icons */
+  .footer .socialMedia .icon {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  /* Hover effect for social media icons */
+  .footer .socialMedia .icon:hover {
+    color: #777;
+  }
+  

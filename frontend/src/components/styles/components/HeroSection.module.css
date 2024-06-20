@@ -1,0 +1,73 @@
+/* Container for the entire hero section */
+.heroSection {
+    position: relative; /* Allows positioning of child elements absolutely */
+    width: 100%; /* Full width of the container */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevents overflow content from being visible */
+}
+
+/* Each poster container */
+.rectangle {
+    position: absolute; /* Positioned relative to the heroSection */
+    top: 0; /* Top of the container */
+    left: 0; /* Left of the container */
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    transition: opacity 1s ease-in-out; /* Smooth transition for opacity changes */
+}
+
+/* Poster image styling */
+.posterImage {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the entire container, maintaining aspect ratio */
+}
+
+/* Container for the content overlay on the poster */
+.posterContent {
+    position: absolute; /* Positioned relative to the rectangle */
+    bottom: 20%; /* Position from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally with transform */
+    color: white; /* White text color */
+    text-shadow: 1px 1px 2px black; /* Slight shadow for text readability */
+    text-align: center; /* Center align text */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+/* Styling for the main banner text */
+.bannerText {
+    color: #fff; /* White text color */
+    font-size: 2.5rem; /* Font size for the banner text */
+}
+
+/* Styling for the discount text */
+.discountText {
+    color: #fff; /* White text color */
+    font-size: 2rem; /* Font size for the discount text */
+    margin-top: 10px; /* Margin from the top to separate from the banner text */
+}
+
+/* Styling for the Explore button */
+.exploreButton {
+    display: inline-block; /* Inline-block layout for the button */
+    margin-top: 20px; /* Margin from the top to separate from the discount text */
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #ff6347; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* No underline for the button text */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for the Explore button */
+.exploreButton:hover {
+    background-color: #e55337; /* Darker background color on hover */
+}
